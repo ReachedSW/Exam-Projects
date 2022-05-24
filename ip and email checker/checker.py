@@ -45,7 +45,7 @@ class Checker():
         bLetterCheck = True
 
         for i in beforeTag:
-            if i not in sLetters:
+            if i not in sLetters or i not in scapitalLetters:
                 bLetterCheck = False
             else:
                 bLetterCheck = True
