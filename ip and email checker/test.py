@@ -9,7 +9,7 @@ def check():
 
         if userSelect == 1:
             userEmail = input("Lütfen e-mail'inizi giriniz : ")
-            checker = checker.Checker(userEmail)
+            checker = checker.Checker(mail = userEmail)
             checker.checkMail()
             if checker.getMailStatus():
                 print("Geçerli e-mail adresi.")

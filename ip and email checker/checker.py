@@ -10,8 +10,8 @@ sNumeric = "1234567890"
 
 class Checker():
     def __init__(self, mail = "", ip_address = ""):
-        self.mail = str(mail)
-        self.ip_adress = str(ip_address)
+        self.mail = mail
+        self.ip_adress = ip_address
         self.mail_status = True
         self.ip_status = True
 
