@@ -1,5 +1,3 @@
-import random as rnd
-
 aNumericThings = []
 
 sLetters = "abcçdefgğhıijklmnoöprsştuüvyzqw"
