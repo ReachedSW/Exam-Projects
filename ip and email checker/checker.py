@@ -140,31 +140,3 @@ class Checker():
 
     def getIpStatus(self):
         return self.ip_status
-
-
-
-inptCounter = 0
-
-while inptCounter < 5:
-    
-    userSelect = int(input("Lütfen yapmak istediğiniz işlemi seçiniz;\n1->E-mail\n2->IP Adress\nSeçiminiz : "))
-
-    if userSelect == 1:
-        userEmail = input("Lütfen e-mail'inizi giriniz : ")
-        checker = Checker(userEmail)
-        checker.checkMail()
-        if checker.getMailStatus():
-            print("Geçerli e-mail adresi.")
-        else:
-            print("Geçersiz e-mail adresi.")
-
-    else:
-        userIp = input("Lütfen IP Adresinizi giriniz: ")
-        checker = Checker(ip_address=userIp)
-        checker.checkIp()
-        if checker.getIpStatus():
-            print("Geçerli ip adresi")
-        else:
-            print("Geçersiz ip adresi")
-
-    inptCounter += 1
