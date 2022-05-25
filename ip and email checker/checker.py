@@ -1,5 +1,3 @@
-aNumericThings = []
-
 sLetters = "abcçdefgğhıijklmnoöprsştuüvyzqw"
 scapitalLetters = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZQW"
 sNumeric = "1234567890"
